@@ -24,4 +24,10 @@
         right: 50px;
      }
 
-     
+     h2 {
+        font-size: 50px;
+        font-family: Verdana;
+        color: aqua;
+        background-color: beige;
+        border: 2px solid silver;
+               }
