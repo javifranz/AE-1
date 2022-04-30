@@ -1,1 +1,27 @@
-/* documento para css */
+  a {
+ font-size: 25px;
+ font-family: Verdana;
+ color: aqua;
+ background-color: beige;
+ border: 2px solid silver;
+        }
+
+     section {
+        color:gray; 
+        text-align:left; 
+        font-size: 20px;
+         width: 500px; 
+     }   
+
+     h1 {
+        font-size: 40px; 
+        color:darkgrey
+     }
+
+     aside {
+        position: absolute; 
+        top: 300px;
+        right: 50px;
+     }
+
+     
