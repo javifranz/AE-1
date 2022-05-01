@@ -34,12 +34,17 @@ section {
       
      }
 
+footer {
+   position: relative;
+   bottom: 0;
+}
+
  aside {
 
    position: absolute; 
         top: 30%;
         left: 60%;
-        height: 50%;
+        height: 100%;
         
       
      }
@@ -143,3 +148,56 @@ ul{
 
 
   
+  @media screen and (max-width: 1300px){
+   section{
+       width:50%;
+   }
+   aside {
+      width: 98%;
+   }
+}
+
+@media screen and (min-width: 900px) and (max-width: 1300px){
+   section{
+       width:50%;
+   }
+   aside {
+      width: 98%;
+   }
+}
+
+@media screen and (device-width: 1180px) and (device-height: 820px) and (orientation:landscape) {
+   section{
+      width:40%;
+  }
+  aside {
+     width: 98%;
+  }
+}
+
+@media screen and (device-width: 1180px) and (device-height: 820px) and (orientation:portrait) {
+   section{
+      width:40%;
+  }
+  aside {
+     width: 60%;
+  }
+}
+
+@media screen and (device-width: 390px) and (device-height: 844px) and (orientation:landscape) {
+   section{
+      width:40%;
+  }
+  aside {
+     width: 98%;
+  }
+}
+
+@media screen and (device-width: 390px) and (device-height: 844px) and (orientation:portrait) {
+   section{
+      width:40%;
+  }
+  aside {
+     width: 60%;
+  }
+}
