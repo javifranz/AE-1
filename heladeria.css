@@ -1,33 +1,91 @@
-  a {
+ 
+ 
+ a {
  font-size: 25px;
  font-family: Verdana;
- color: aqua;
+ color: rgba(128, 103, 103, 0.815);
  background-color: beige;
  border: 2px solid silver;
         }
 
-     section {
-        color:gray; 
+section {
+        color:rgb(56, 48, 45);
+        background-color: rgba(245, 245, 220, 0.479);
         text-align:left; 
         font-size: 20px;
-         width: 500px; 
+         width: 50%; 
      }   
 
-     h1 {
-        font-size: 40px; 
-        color:darkgrey
+ h1 {
+  
+        font-size: 50px; 
+        font-family: "Sofia",sans-serif;
+        color:rgb(80, 67, 57);
+      
      }
 
-     aside {
+ aside {
+
         position: absolute; 
-        top: 300px;
-        right: 50px;
+        top: 30%;
+        left: 60%;
+        height: 50%;
      }
 
-     h2 {
-        font-size: 50px;
-        font-family: Verdana;
-        color: aqua;
+h2 {
+        font-size: 35px;
+        font-family: 'Handlee', cursive;
+        color: rgb(114, 93, 76);
         background-color: beige;
         border: 2px solid silver;
                }
+h3 {
+   font-size: 20px;
+   font-family: Verdana;
+   color: rgb(114, 93, 76);
+   background-color: beige;
+   border: 2px solid silver;
+                         }
+               
+   body {
+     
+       background-image: url(img/fondo.png);
+       background-size: cover;
+       height: 50%;
+       margin-left: 8%;
+      }
+                
+                
+                
+                div {
+                  background-color: rgba(238, 221, 209, 0.829);
+               }
+                
+                
+                span {
+                  background-color: #f18973;
+                }
+
+h1.centrado{
+
+   text-align: center;
+}
+h2.centrado{
+
+   text-align: center;
+}
+h3.centrado{
+
+   text-align: center;
+}
+
+.chocolate{
+
+   color: rgb(114, 93, 76);
+}
+
+.customtext1{
+
+ 
+   font-family: "Sofia",sans-serif;
+}
