@@ -8,11 +8,21 @@
  border: 2px solid silver;
         }
 
+        nav {
+         z-index: 1;
+         position: absolute; 
+         top: 10%;
+         left: 10%;
+        width: 60%;
+      }
+
 section {
         color:rgb(56, 48, 45);
         background-color: rgba(245, 245, 220, 0.479);
+        position: absolute;  
         text-align:left; 
         font-size: 20px;
+        top: 30%;
          width: 50%; 
      }   
 
@@ -26,10 +36,12 @@ section {
 
  aside {
 
-        position: absolute; 
+   position: absolute; 
         top: 30%;
         left: 60%;
         height: 50%;
+        
+      
      }
 
 h2 {
@@ -89,3 +101,45 @@ h3.centrado{
  
    font-family: "Sofia",sans-serif;
 }
+
+
+/* menu desplegable listas */
+ul{
+   list-style: none;
+ }
+ #menu li>a{
+   background-color: rgb(238, 221, 209);;
+   color: rgb(114, 93, 76);;
+   padding: 10px;
+   display: block;
+   text-decoration: none;
+   min-width: 100px;
+ }
+ #menu li>a:hover{
+   color: rgb(185, 168, 156);
+   background-color: #eaeaea;
+ }
+ #menu>li{
+   float: left;
+   text-align:center
+ }
+
+
+ #menu>li>ul{
+   display: none;
+ }
+ #menu>li:hover>ul {
+   display:block;
+ }
+
+ img {
+   max-width: 100%;
+   max-height: 100%;
+  }
+  .Bolas {
+   height: 500px;
+   width:500px;
+  }
+
+
+  
